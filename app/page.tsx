@@ -24,7 +24,7 @@ export default function Home() {
       <div className='flex gap-6'>
         <Link
           isExternal
-          href='/login'
+          href='/signup'
           className={buttonStyles({
             color: 'primary',
             // radius: 'full',
@@ -35,7 +35,7 @@ export default function Home() {
           Get Started
         </Link>
         <Link
-          href='/signup'
+          href='/login'
           className={buttonStyles({
             variant: 'shadow',
             color: 'primary',
