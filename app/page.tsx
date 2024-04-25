@@ -23,7 +23,6 @@ export default function Home() {
 
       <div className='flex gap-6'>
         <Link
-          isExternal
           href='/signup'
           className={buttonStyles({
             color: 'primary',
